@@ -68,5 +68,8 @@
 	  a)株価のスナップショット（e_api_get_price_from_file.py）
 	  b)株価の日足（e_api_get_histrical_price_daily.py ）
 	を利用して取得できる情報を調べました。
-	指数、為替の銘柄コード、銘柄名は、銘柄マスターの個別取得（e_api_get_master_kobetsu.py ）で、
+ 	2023年4月の調査時点でのものになります。
+	ベンダーの算出停止による銘柄の廃止や、データ更新等により、内容が変わりますので、ご注意ください。
+
+ 	指数、為替の銘柄コード、銘柄名は、銘柄マスターの個別取得（e_api_get_master_kobetsu.py ）で、
 	sTargetCLMID:'CLMIssueMstOther'と指定することで取得できます。
