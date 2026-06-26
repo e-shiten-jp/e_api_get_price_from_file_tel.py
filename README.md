@@ -1,4 +1,4 @@
-# e_api_get_price_from_file_tel.py
+# e_api_get_price_from_file_pubkey_tmp.py
 ファイルにリストされた銘柄の株価をスナップショットで取得（公開鍵認証 仮対応）
 
 	
