@@ -43,7 +43,7 @@ APIの基本設計について
  
 ３）利用時に変数を設定してください。
 	
-	str_fname_input = 'price_list_in.csv'
+	FNAME_INPUT = 'price_list_in.csv'
 		取得する情報コードと銘柄を読み込むファイル名。
 		カレントディレクトリに存在すること。
  		str_fname_inputに定義したファイルに、csv形式で、
@@ -52,7 +52,7 @@ APIの基本設計について
 	 	２行目以降は、銘柄コード（１行に１銘柄）
    		を指定してください。
  	
-	str_fname_output = 'price_list_out.csv'   
+	FNAME_OUTPUT = 'price_list_out.csv'   
 		書き込むファイル名。
 		カレントディレクトリに上書きモードでファイルが作成される。
 	
